@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFB32DB62017C4A1008E0B55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB32DB52017C4A1008E0B55 /* AppDelegate.swift */; };
+		AFB32DB82017C4A1008E0B55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB32DB72017C4A1008E0B55 /* ViewController.swift */; };
+		AFB32DBB2017C4A1008E0B55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB32DB92017C4A1008E0B55 /* Main.storyboard */; };
+		AFB32DBE2017C4A1008E0B55 /* Log_In_Demo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AFB32DBC2017C4A1008E0B55 /* Log_In_Demo.xcdatamodeld */; };
+		AFB32DC02017C4A1008E0B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFB32DBF2017C4A1008E0B55 /* Assets.xcassets */; };
+		AFB32DC32017C4A1008E0B55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFB32DC12017C4A1008E0B55 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AFB32DB22017C4A1008E0B55 /* Log In Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Log In Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB32DB52017C4A1008E0B55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFB32DB72017C4A1008E0B55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFB32DBA2017C4A1008E0B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFB32DBD2017C4A1008E0B55 /* Log_In_Demo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Log_In_Demo.xcdatamodel; sourceTree = "<group>"; };
+		AFB32DBF2017C4A1008E0B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFB32DC22017C4A1008E0B55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFB32DC42017C4A1008E0B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFB32DAF2017C4A1008E0B55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFB32DA92017C4A1008E0B55 = {
+			isa = PBXGroup;
+			children = (
+				AFB32DB42017C4A1008E0B55 /* Log In Demo */,
+				AFB32DB32017C4A1008E0B55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AFB32DB32017C4A1008E0B55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFB32DB22017C4A1008E0B55 /* Log In Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFB32DB42017C4A1008E0B55 /* Log In Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AFB32DB52017C4A1008E0B55 /* AppDelegate.swift */,
+				AFB32DB72017C4A1008E0B55 /* ViewController.swift */,
+				AFB32DB92017C4A1008E0B55 /* Main.storyboard */,
+				AFB32DBF2017C4A1008E0B55 /* Assets.xcassets */,
+				AFB32DC12017C4A1008E0B55 /* LaunchScreen.storyboard */,
+				AFB32DC42017C4A1008E0B55 /* Info.plist */,
+				AFB32DBC2017C4A1008E0B55 /* Log_In_Demo.xcdatamodeld */,
+			);
+			path = "Log In Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFB32DB12017C4A1008E0B55 /* Log In Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFB32DC72017C4A1008E0B55 /* Build configuration list for PBXNativeTarget "Log In Demo" */;
+			buildPhases = (
+				AFB32DAE2017C4A1008E0B55 /* Sources */,
+				AFB32DAF2017C4A1008E0B55 /* Frameworks */,
+				AFB32DB02017C4A1008E0B55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Log In Demo";
+			productName = "Log In Demo";
+			productReference = AFB32DB22017C4A1008E0B55 /* Log In Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFB32DAA2017C4A1008E0B55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = iGarcia;
+				TargetAttributes = {
+					AFB32DB12017C4A1008E0B55 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = AFB32DAD2017C4A1008E0B55 /* Build configuration list for PBXProject "Log In Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFB32DA92017C4A1008E0B55;
+			productRefGroup = AFB32DB32017C4A1008E0B55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFB32DB12017C4A1008E0B55 /* Log In Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFB32DB02017C4A1008E0B55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB32DC32017C4A1008E0B55 /* LaunchScreen.storyboard in Resources */,
+				AFB32DC02017C4A1008E0B55 /* Assets.xcassets in Resources */,
+				AFB32DBB2017C4A1008E0B55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFB32DAE2017C4A1008E0B55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFB32DBE2017C4A1008E0B55 /* Log_In_Demo.xcdatamodeld in Sources */,
+				AFB32DB82017C4A1008E0B55 /* ViewController.swift in Sources */,
+				AFB32DB62017C4A1008E0B55 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFB32DB92017C4A1008E0B55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB32DBA2017C4A1008E0B55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFB32DC12017C4A1008E0B55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFB32DC22017C4A1008E0B55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFB32DC52017C4A1008E0B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFB32DC62017C4A1008E0B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFB32DC82017C4A1008E0B55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Log In Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iGarcia.Log-In-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFB32DC92017C4A1008E0B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Log In Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.iGarcia.Log-In-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFB32DAD2017C4A1008E0B55 /* Build configuration list for PBXProject "Log In Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB32DC52017C4A1008E0B55 /* Debug */,
+				AFB32DC62017C4A1008E0B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFB32DC72017C4A1008E0B55 /* Build configuration list for PBXNativeTarget "Log In Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFB32DC82017C4A1008E0B55 /* Debug */,
+				AFB32DC92017C4A1008E0B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AFB32DBC2017C4A1008E0B55 /* Log_In_Demo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AFB32DBD2017C4A1008E0B55 /* Log_In_Demo.xcdatamodel */,
+			);
+			currentVersion = AFB32DBD2017C4A1008E0B55 /* Log_In_Demo.xcdatamodel */;
+			path = Log_In_Demo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AFB32DAA2017C4A1008E0B55 /* Project object */;
+}
